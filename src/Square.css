@@ -1,0 +1,35 @@
+.square {
+    background: #fff;
+    color: #311B92;
+    border: 1px solid #1A237E;
+    line-height: 1;
+    float: left;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.board-row:first-child .square {
+    border-top: 0;
+}
+
+.board-row:nth-child(1n) .square:first-child {
+    border-left: 0;
+}
+
+.board-row:nth-child(1n) .square:last-child {
+    border-right: 0;
+}
+
+.board-row:last-child .square {
+    border-bottom: 0;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}

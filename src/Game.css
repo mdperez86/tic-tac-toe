@@ -1,0 +1,50 @@
+ol, ul {
+    padding-left: 30px;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.game {
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.game-info {
+    margin: 20px 0;
+}
+
+.btn-flat {
+    border: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    padding: 8px 16px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 1px;
+    font-weight: 700;
+}
+
+.btn-default {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.btn-float {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 0 8px 4px;
+    background-color: #1A237E;
+    height: 56px;
+    width: 56px;
+    font-size: 18px;
+}
+
+.form-control > option {
+    color: #000;
+}

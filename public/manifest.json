@@ -1,0 +1,26 @@
+{
+  "short_name": "TicTacToe",
+  "name": "Tic Tac Toe",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#2196F3",
+  "background_color": "#2196F3",
+  "display": "standalone",
+  "orientation": "portrait"
+}

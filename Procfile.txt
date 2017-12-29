@@ -1,0 +1,2 @@
+web: npm run react-scripts build
+web: npm start
