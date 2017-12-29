@@ -1,2 +1,4 @@
-web: npm run react-scripts build
-web: npm start
+web: npm i
+web: npm run build
+web: npm i -g serve
+web: serve -s build -p 80
