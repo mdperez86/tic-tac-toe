@@ -11,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "start:prod": "npm run build && serve -s build -p 80",
+    "start:prod": "npm run build && serve -s build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
