@@ -4,6 +4,7 @@
   "scripts": {
   },
   "env": {
+    "ENV": "production"
   },
   "formation": {
     "web": {
